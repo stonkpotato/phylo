@@ -1,0 +1,8 @@
+.yes {
+    display: flex;
+    flex-direction: row;
+}
+
+.equiv {
+    flex: 1;
+}
