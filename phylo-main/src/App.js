@@ -55,7 +55,7 @@ const Flow = () => {
   return (
     <div>
       <div style={{fontSize: '40px', marginLeft: '20px', marginRight: '10px', marginTop: '10px'}}><strong>The Evolution of the Modern Horse</strong></div>
-      <div style={{fontSize: '16px', marginLeft: '20px', marginRight: '10px', marginTop: '10px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut eros pretium magna aliquet luctus. Suspendisse maximus urna ut dui lacinia vehicula. Suspendisse maximus arcu eu est dapibus, eget venenatis augue ullamcorper. In hac habitasse platea dictumst. Sed in finibus elit, a ullamcorper massa. Nulla pellentesque tristique ipsum, id vestibulum orci fringilla semper. Sed eu ultricies quam. Duis suscipit congue nunc, sit amet molestie velit tristique non. Donec blandit tempus odio in scelerisque. Proin tempus, enim sit amet posuere mattis, justo mauris elementum dolor, non tempor nunc tortor sit amet nisi. Cras fringilla lectus quis laoreet vulputate. Donec urna enim, rhoncus sed maximus vel, semper in justo. Morbi id vulputate enim, nec imperdiet mauris. Sed at sem tortor. Nullam vel posuere turpis, id pharetra sapien.</div>
+      <div style={{fontSize: '16px', marginLeft: '20px', marginRight: '10px', marginTop: '10px'}}>The horse is normally used as a primary example of evolution, because of its familiarity and obvious, trackable trait changes over generations. We not only have a clear picture of the evolution of the horse, due to its fossils and its ancestors' fossils being widespread and recent, but we can also see obvious changes throughout the generations, including leg length, tooth length, and number of bones in various body parts, all of which are traits that are more or less preserved in fossils. However, even with this clear history or maybe because of it) scientists are constantly discovering new classifications and evolving traits in the horse, which can help advance our understanding of the evolution of the horse.</div>
       <ReactFlow
         nodes={nodes}
         edges={edges}
@@ -86,7 +86,7 @@ const Flow = () => {
           </text>
           <XAxis dataKey="da" tick={{fontSize: 20}}/>
       </BarChart>
-      <div style={{fontSize: '16px', marginLeft: '20px', marginRight: '10px', marginTop: '10px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut eros pretium magna aliquet luctus. Suspendisse </div>
+      <div style={{fontSize: '16px', marginLeft: '20px', marginRight: '10px', marginTop: '10px'}}>Sorry I was going to put the class names of the horses, but closed the document :( (the colors for the horses correspond to what tribe the horses are in)</div>
     </div>
   );
 }
